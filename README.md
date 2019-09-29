@@ -27,9 +27,9 @@ How to run project:
 8. Use command roslaunch robot_gazebo rviz.launch to run RVIZ and command roslaunch robot_gazebo begin.launch torum model in GAZEBO
 9. Enjoy!
 
-If you want to makechanges in manipulator's configuration:
+If you want to mak echanges in manipulator's configuration:
 1. Open robot.xacro in directory ./src/manipulator_xacro/robot_description/urdf
-2. Change parametres
+2. Change parameters
 3. Go to that directory in console (cd ./src/manipulator_xacro/robot_description/urdf)
 4. Generate urdf file using command: xacro robot.xacro -> robot.urdf
 5. Enjoy
